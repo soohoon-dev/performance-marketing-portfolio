@@ -8,6 +8,7 @@
 ---
 
 ## Start here
+
 - Website Home: https://soohoon-dev.github.io/portfolio/
 - Capabilities: [docs/CAPABILITIES.md](docs/CAPABILITIES.md)
 - Operating System: [docs/OPERATING-SYSTEM.md](docs/OPERATING-SYSTEM.md)
@@ -19,13 +20,25 @@
 ---
 
 ## Featured
+
+### 🚀 Zero-Budget Growth Strategy (Skincare)
+
+**"Increasing conversion without increasing ad spend via Data Engineering."**
+
+- **Tech Stack:** Python (Pandas ETL), SQL (BigQuery), Looker Studio
+- **Key Insight:** Identified "9 PM Leak" (Operational Gap) & "UX Friction" using raw log analysis.
+- **Link:** [View Project Case Study](projects/skincare-growth-strategy/README.md)
+
 ### Execution Framework (Ask → Act)
+
 A complete execution + measurement documentation system:
+
 - Repo: https://github.com/soohoon-dev/book-execution-framework
 
 ---
 
 ## How this repo is organized
+
 - `/docs`: website pages (GitHub Pages source)
 - `/projects`: case studies, playbooks, proposals
 - `/creative`: visual archive (web, ads, diagrams, posters, teaching)
@@ -35,6 +48,7 @@ A complete execution + measurement documentation system:
 ---
 
 ## Contact
+
 - GitHub: https://github.com/soohoon-dev
-- LinkedIn: *(add link)*
-- Email: *(add email)*
+- LinkedIn: _(add link)_
+- Email: _(add email)_
