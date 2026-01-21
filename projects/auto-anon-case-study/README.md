@@ -194,13 +194,41 @@ The massive impression drop reflects a deliberate shift from broad match keyword
 - **Analysis:** Google Sheets, Looker Studio
 - **Reporting:** Custom dashboards + executive summaries
 
-### Dashboard Access
+---
 
-📊 **[Interactive Dashboard](#)** _(Looker Studio link to be added)_
+## Dashboard
 
-- Real-time metric comparisons
-- Channel performance breakdown
-- Cost efficiency trend analysis
+Interactive visualization of campaign performance analysis.
+
+**🔗 Live Dashboard:** [View in Looker Studio](YOUR_SHARE_LINK_HERE)
+
+### Dashboard Structure:
+
+1. **Summary** - Campaign Evolution Highlights (2021-2025)
+2. **Display** - Programmatic Display Deep Dive
+3. **Video** - CTV + YouTube Performance
+4. **Search** - Paid Search High-Intent Targeting
+
+### Key Features:
+
+- Interactive filters and cross-chart comparisons
+- Real-time data visualization
+- Mobile-responsive design
+- 4-page narrative structure
+
+### Dashboard Pages:
+
+**Page 1: Summary**
+![Summary](../../assets/images/auto-anon/dashboard-summary.png)
+
+**Page 2: Display**
+![Display](../../assets/images/auto-anon/dashboard-display.png)
+
+**Page 3: Video**
+![Video](../../assets/images/auto-anon/dashboard-video.png)
+
+**Page 4: Search**
+![Search](../../assets/images/auto-anon/dashboard-search.png)
 
 ---
 

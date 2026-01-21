@@ -1,0 +1,89 @@
+.
+├── assets
+│   ├── files
+│   │   └── auto-anon
+│   │       ├── dv360_ctv_comparison.csv
+│   │       ├── paid_search_comparison.csv
+│   │       ├── programmatic_display_launch.csv
+│   │       ├── programmatic_display_sales.csv
+│   │       ├── youtube_video_launch.csv
+│   │       └── youtube_video_sales.csv
+│   └── images
+│       ├── creative
+│       │   ├── display
+│       │   ├── posters
+│       │   ├── sci-arc
+│       │   ├── teaching
+│       │   └── web
+│       └── projects
+│           ├── auto-anon
+│           ├── proposals
+│           └── skincare
+├── creative
+│   ├── display-ads.md
+│   ├── posters-graphics.md
+│   ├── README.md
+│   ├── sci-arc-diagrams.md
+│   ├── teaching-materials.md
+│   └── web-production.md
+├── docs
+│   ├── _config.yml
+│   ├── ABOUT.md
+│   ├── CAPABILITIES.md
+│   ├── CONFIDENTIALITY.md
+│   ├── CONTACT.md
+│   ├── index.md
+│   ├── OPERATING-SYSTEM.md
+│   └── RESUME.md
+├── leadership
+│   ├── README.md
+│   ├── yudogo_leadership_portfolio.md
+│   └── yudogo.md
+├── output.txt
+├── projects
+│   ├── auto-anon-case-study
+│   │   ├── dashboard-guide.md
+│   │   ├── detailed-analysis.md
+│   │   └── README.md
+│   ├── auto-paid-media-playbook.md
+│   ├── book-execution-framework.md
+│   ├── proposals
+│   │   ├── digital-marketing-measurement-framework
+│   │   │   ├── assets
+│   │   │   │   ├── action-valuation-model.png
+│   │   │   │   ├── attribution-comparison.png
+│   │   │   │   ├── audience-segmentation.png
+│   │   │   │   └── dynamic-budget-allocation.png
+│   │   │   ├── LEARNINGS.md
+│   │   │   └── README.md
+│   │   ├── gen-talk-brand-experience
+│   │   │   ├── assets
+│   │   │   │   ├── event-flow-chart.png
+│   │   │   │   ├── planning-deck-visuals.png
+│   │   │   │   └── speaker-lineup-strategy.png
+│   │   │   └── README.md
+│   │   └── README.md
+│   ├── README.md
+│   └── skincare-growth-strategy
+│       ├── dashboard
+│       │   └── dashboard_screenshot.png
+│       ├── data
+│       │   ├── processed
+│       │   │   └── cleaned_skincare_data.csv
+│       │   └── raw
+│       │       └── wp_wap_nex_forms_entries-edit.csv
+│       ├── docs
+│       │   └── preprocessing.md
+│       ├── queries
+│       │   └── bigquery_analysis.sql
+│       ├── README.md
+│       └── reports
+│           ├── evidence
+│           │   ├── insight_1_lead_volume_by_hour.csv
+│           │   ├── insight_2_service_demand_distribution.csv
+│           │   └── insight_3_conversion_rate_by_type.csv
+│           └── strategy_proposal.md
+├── README.md
+└── structure.txt
+
+34 directories, 53 files

@@ -21,6 +21,22 @@
 
 ## Featured
 
+### Automotive Campaign Analytics
+
+**Interactive Dashboard:** Campaign performance evolution (2021-2025)
+
+🔗 **[View Live Dashboard](https://lookerstudio.google.com/s/jmhgqFQRtcI)**
+📂 **[View Case Study](./projects/auto-anon-case-study/)**
+
+**Highlights:**
+
+- Display CTR: +2,044% through precision targeting
+- CTV Completion: 98% with -28% CPM efficiency
+- YouTube Views: +88% with improved engagement
+- Search CTR: +1,454% via exact match strategy
+
+**Tech Stack:** Google Sheets, Looker Studio, Data Visualization
+
 ### 🚀 Zero-Budget Growth Strategy (Skincare)
 
 **"Increasing conversion without increasing ad spend via Data Engineering."**

@@ -10,10 +10,3 @@
 | Automotive        | [Anonymized Case Study](./auto-anon-case-study/)                                   | Case study             | Display/Video 360 & YouTube Optimization (Ask → Act)    |
 | Proposals         | Planning documents                                                                 | Proposal               | not executed; shows strategy & measurement design       |
 | Leadership        | yudogo                                                                             | Leadership             | community program ops (non-PII)                         |
-
-## Templates
-
-- [templates/case-study-template.md](templates/case-study-template.md)
-- [templates/measurement-plan-template.md](templates/measurement-plan-template.md)
-- [templates/playbook-template.md](templates/playbook-template.md)
-- [templates/proposal-template.md](templates/proposal-template.md)
