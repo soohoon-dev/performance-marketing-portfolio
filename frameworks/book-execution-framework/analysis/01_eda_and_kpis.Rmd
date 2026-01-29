@@ -1,0 +1,159 @@
+---
+title: "Book Execution Framework — Reading to Action (EDA + KPIs)"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
+
+## Purpose
+This report supports the **Share** stage of the Google Data Analytics framework.
+
+**Data location (BigQuery Sandbox)**
+- Project: `refined-iridium-478011-r3`
+- Dataset: `book_exec_capstone`
+- Primary view: `v_reading_logs_enriched`
+
+## Setup
+
+```{r}
+library(bigrquery)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(knitr)
+
+project_id <- "refined-iridium-478011-r3"
+dataset_id <- "book_exec_capstone"
+
+# Where to save exported charts (for GitHub portfolio)
+dir.create("output", recursive = TRUE, showWarnings = FALSE)
+```
+
+## Load analysis-ready data (from BigQuery views)
+
+```{r}
+enriched <- bq_table_download(
+  bq_project_query(
+    project_id,
+    sprintf("SELECT * FROM `%s.%s.v_reading_logs_enriched`", project_id, dataset_id)
+  )
+)
+
+glimpse(enriched)
+```
+
+## Overall KPIs
+
+```{r}
+overall <- enriched %>%
+  summarise(
+    total_reads = n(),
+    completed_reads = sum(is_completed, na.rm = TRUE),
+    completion_rate = completed_reads / total_reads,
+    completed_with_action = sum(is_completed & action_performed, na.rm = TRUE),
+    action_rate_completed_only = completed_with_action / completed_reads
+  )
+
+kable(overall, digits = 4)
+```
+
+## Completion rate by acquisition channel
+
+```{r}
+by_channel <- enriched %>%
+  filter(!is.na(acquisition_channel)) %>%
+  group_by(acquisition_channel) %>%
+  summarise(
+    total_reads = n(),
+    completed_reads = sum(is_completed, na.rm = TRUE),
+    completion_rate = completed_reads / total_reads,
+    .groups = "drop"
+  ) %>%
+  arrange(desc(total_reads))
+
+p_completion <- ggplot(by_channel, aes(x = reorder(acquisition_channel, completion_rate), y = completion_rate)) +
+  geom_col(fill = "#2C7FB8") +
+  coord_flip() +
+  scale_y_continuous(labels = percent_format()) +
+  labs(
+    title = "Completion Rate by Acquisition Channel",
+    x = "Acquisition Channel",
+    y = "Completion Rate"
+  )
+
+p_completion
+
+ggsave("output/completion_by_channel.png", plot = p_completion, width = 9, height = 5, dpi = 150)
+```
+
+## Action rate (completed-only) by reminder opt-in
+
+```{r}
+optin_action <- enriched %>%
+  group_by(reminder_opt_in) %>%
+  summarise(
+    completed_reads = sum(is_completed, na.rm = TRUE),
+    completed_with_action = sum(is_completed & action_performed, na.rm = TRUE),
+    action_rate_completed_only = completed_with_action / completed_reads,
+    .groups = "drop"
+  )
+
+p_optin <- ggplot(optin_action, aes(x = as.factor(reminder_opt_in), y = action_rate_completed_only)) +
+  geom_col(fill = "#41AB5D") +
+  scale_y_continuous(labels = percent_format()) +
+  labs(
+    title = "Action Rate Among Completed Reads by Reminder Opt-in",
+    x = "Reminder Opt-in",
+    y = "Action Rate (Completed-only)"
+  )
+
+p_optin
+
+ggsave("output/action_by_optin.png", plot = p_optin, width = 7, height = 4, dpi = 150)
+```
+
+## (Optional) Action rate by book attributes (completed-only)
+This can produce many groups. Start by filtering to the most common categories.
+
+```{r}
+by_book_attr <- enriched %>%
+  filter(!is.na(book_category)) %>%
+  group_by(book_category) %>%
+  summarise(completed_reads = sum(is_completed, na.rm = TRUE), .groups = "drop") %>%
+  arrange(desc(completed_reads))
+
+top_categories <- by_book_attr %>%
+  slice_head(n = 5) %>%
+  pull(book_category)
+
+book_attr_action <- enriched %>%
+  filter(book_category %in% top_categories) %>%
+  group_by(book_category, has_action_guide) %>%
+  summarise(
+    completed_reads = sum(is_completed, na.rm = TRUE),
+    completed_with_action = sum(is_completed & action_performed, na.rm = TRUE),
+    action_rate_completed_only = completed_with_action / completed_reads,
+    .groups = "drop"
+  )
+
+p_book_attr <- ggplot(book_attr_action, aes(x = book_category, y = action_rate_completed_only, fill = as.factor(has_action_guide))) +
+  geom_col(position = "dodge") +
+  scale_y_continuous(labels = percent_format()) +
+  labs(
+    title = "Action Rate (Completed-only) by Top Categories and Action Guide",
+    x = "Book Category (Top 5 by completed reads)",
+    y = "Action Rate",
+    fill = "Has Action Guide"
+  )
+
+p_book_attr
+
+ggsave("output/action_by_category_actionguide.png", plot = p_book_attr, width = 9, height = 5, dpi = 150)
+```
+
+## Findings (fill after running)
+Write 3–5 bullet findings here based on the charts and KPI table.
+
+## Recommendations (Act)
+Translate findings into product actions (reminder flow, action guides, segment-specific onboarding).

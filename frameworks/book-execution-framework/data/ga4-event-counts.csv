@@ -1,0 +1,20 @@
+# ----------------------------------------
+# Events
+# Account: Dev
+# Property: Book Execution MVP
+# ----------------------------------------
+# 
+# Paid traffic
+# Start date: 20260113
+# End date: 20260119
+Event name,Event count,Total users,Event count per active user,Total revenue
+first_visit,119,119,1,0
+page_view,119,119,1,0
+session_start,119,119,1,0
+frame_start,11,11,1,0
+scroll,8,8,1,0
+form_error,2,2,1,0
+user_engagement,2,2,1,0
+cta_start_click,1,1,1,0
+scroll_to_form,1,1,1,0
+share_click,1,1,1,0

@@ -1,0 +1,501 @@
+user_id,occupation,acquisition_channel,subscription_tier,signup_date
+1,Employee,Organic Search,Free,2025-01-15
+2,Entrepreneur,Organic Search,Free,2024-02-24
+3,Student,Paid Ads,Free,2025-07-26
+4,Employee,Referral,Pro,2024-11-05
+5,Student,Social Media,Pro,2025-11-10
+6,Freelancer,Social Media,Free,2025-03-03
+7,Student,Referral,Free,2025-10-16
+8,Student,Organic Search,Free,2024-02-11
+9,Employee,Social Media,Free,2024-02-03
+10,Freelancer,Paid Ads,Free,2024-06-13
+11,Entrepreneur,Paid Ads,Free,2025-08-25
+12,Freelancer,Organic Search,Free,2024-04-13
+13,Employee,Organic Search,Free,2024-06-29
+14,Student,Organic Search,Pro,2024-04-20
+15,Entrepreneur,Organic Search,Free,2024-09-08
+16,Student,Referral,Free,2024-06-13
+17,Student,Organic Search,Pro,2024-12-29
+18,Student,Organic Search,Free,2025-08-03
+19,Employee,Social Media,Free,2024-02-08
+20,Student,Referral,Free,2025-12-30
+21,Freelancer,Social Media,Free,2024-01-23
+22,Employee,Referral,Free,2025-02-10
+23,Freelancer,Referral,Free,2024-08-18
+24,Employee,Social Media,Free,2024-06-29
+25,Employee,Social Media,Free,2024-01-03
+26,Employee,Organic Search,Free,2025-07-11
+27,Employee,Organic Search,Free,2025-10-01
+28,Student,Organic Search,Pro,2024-07-04
+29,Entrepreneur,Referral,Free,2025-07-19
+30,Student,Paid Ads,Pro,2025-09-18
+31,Entrepreneur,Organic Search,Free,2025-08-30
+32,Freelancer,Social Media,Free,2024-11-15
+33,Entrepreneur,Referral,Free,2024-05-15
+34,Student,Paid Ads,Free,2025-06-07
+35,Employee,Paid Ads,Free,2024-04-07
+36,Student,Paid Ads,Free,2024-06-08
+37,Student,Social Media,Pro,2024-06-29
+38,Entrepreneur,Paid Ads,Pro,2025-05-04
+39,Employee,Organic Search,Pro,2025-10-02
+40,Student,Referral,Free,2025-04-29
+41,Student,Paid Ads,Free,2025-02-13
+42,Employee,Referral,Pro,2024-07-21
+43,Student,Organic Search,Free,2025-02-08
+44,Student,Organic Search,Free,2025-03-07
+45,Student,Social Media,Pro,2025-08-15
+46,Employee,Social Media,Free,2024-12-29
+47,Entrepreneur,Referral,Free,2024-11-25
+48,Employee,Social Media,Free,2024-05-08
+49,Entrepreneur,Referral,Free,2024-07-03
+50,Freelancer,Organic Search,Free,2024-07-25
+51,Employee,Referral,Free,2025-06-21
+52,Employee,Social Media,Free,2024-09-25
+53,Employee,Organic Search,Free,2025-08-23
+54,Student,Referral,Pro,2025-04-12
+55,Employee,Referral,Free,2025-06-18
+56,Employee,Social Media,Pro,2024-11-14
+57,Freelancer,Social Media,Free,2025-09-08
+58,Entrepreneur,Organic Search,Free,2025-11-22
+59,Student,Organic Search,Pro,2024-04-17
+60,Employee,Paid Ads,Free,2025-04-24
+61,Freelancer,Paid Ads,Free,2024-04-18
+62,Employee,Social Media,Pro,2025-03-19
+63,Student,Referral,Free,2024-07-27
+64,Employee,Organic Search,Pro,2024-02-14
+65,Employee,Referral,Pro,2024-04-27
+66,Employee,Paid Ads,Free,2025-04-23
+67,Entrepreneur,Referral,Free,2025-08-26
+68,Employee,Paid Ads,Free,2025-03-20
+69,Employee,Paid Ads,Pro,2024-06-06
+70,Entrepreneur,Referral,Free,2025-06-14
+71,Student,Organic Search,Free,2024-01-06
+72,Employee,Referral,Free,2024-09-18
+73,Employee,Organic Search,Free,2024-06-16
+74,Employee,Social Media,Free,2024-11-05
+75,Employee,Social Media,Pro,2025-04-29
+76,Employee,Organic Search,Free,2024-03-13
+77,Student,Referral,Free,2025-08-30
+78,Entrepreneur,Paid Ads,Free,2025-03-13
+79,Employee,Referral,Pro,2025-05-29
+80,Entrepreneur,Social Media,Pro,2025-06-25
+81,Employee,Paid Ads,Pro,2024-06-11
+82,Entrepreneur,Referral,Free,2025-05-29
+83,Student,Social Media,Pro,2025-01-12
+84,Freelancer,Social Media,Free,2024-11-05
+85,Employee,Social Media,Free,2025-05-24
+86,Freelancer,Referral,Pro,2025-08-23
+87,Student,Organic Search,Free,2025-03-08
+88,Employee,Referral,Pro,2024-01-15
+89,Employee,Organic Search,Free,2025-01-02
+90,Employee,Social Media,Free,2024-02-08
+91,Student,Social Media,Pro,2024-10-18
+92,Employee,Referral,Free,2024-02-06
+93,Entrepreneur,Social Media,Free,2025-07-14
+94,Employee,Organic Search,Free,2025-05-17
+95,Entrepreneur,Paid Ads,Free,2025-10-02
+96,Entrepreneur,Referral,Free,2024-06-07
+97,Freelancer,Organic Search,Free,2024-02-08
+98,Entrepreneur,Referral,Free,2025-04-24
+99,Freelancer,Organic Search,Free,2024-05-07
+100,Employee,Referral,Pro,2025-09-10
+101,Student,Organic Search,Free,2024-05-25
+102,Student,Paid Ads,Free,2025-07-29
+103,Employee,Paid Ads,Pro,2024-03-10
+104,Freelancer,Social Media,Free,2025-11-09
+105,Employee,Social Media,Free,2025-06-21
+106,Student,Social Media,Pro,2024-03-23
+107,Entrepreneur,Organic Search,Free,2024-04-14
+108,Entrepreneur,Paid Ads,Free,2025-11-08
+109,Entrepreneur,Paid Ads,Free,2025-11-02
+110,Employee,Referral,Free,2025-08-26
+111,Employee,Organic Search,Free,2025-09-01
+112,Student,Social Media,Pro,2025-03-18
+113,Entrepreneur,Paid Ads,Free,2025-01-03
+114,Employee,Referral,Free,2024-11-05
+115,Student,Organic Search,Free,2024-08-03
+116,Freelancer,Social Media,Free,2024-10-20
+117,Student,Referral,Free,2025-06-09
+118,Employee,Paid Ads,Free,2024-12-25
+119,Employee,Organic Search,Free,2025-01-30
+120,Freelancer,Paid Ads,Free,2024-03-17
+121,Student,Referral,Free,2024-10-07
+122,Employee,Referral,Pro,2024-07-24
+123,Freelancer,Referral,Pro,2024-09-24
+124,Student,Referral,Free,2024-05-21
+125,Employee,Paid Ads,Free,2025-01-18
+126,Student,Social Media,Pro,2025-09-02
+127,Employee,Organic Search,Free,2024-05-28
+128,Freelancer,Paid Ads,Free,2024-05-07
+129,Employee,Referral,Free,2025-05-02
+130,Freelancer,Organic Search,Pro,2025-01-04
+131,Entrepreneur,Paid Ads,Free,2025-07-29
+132,Entrepreneur,Paid Ads,Free,2024-04-05
+133,Employee,Organic Search,Free,2024-04-30
+134,Employee,Referral,Free,2024-06-14
+135,Student,Social Media,Pro,2024-08-01
+136,Student,Referral,Free,2025-05-16
+137,Employee,Paid Ads,Free,2025-07-21
+138,Employee,Organic Search,Free,2024-02-20
+139,Employee,Organic Search,Pro,2024-08-03
+140,Student,Social Media,Free,2025-02-17
+141,Employee,Organic Search,Free,2025-10-01
+142,Employee,Referral,Free,2024-08-30
+143,Employee,Organic Search,Pro,2025-10-05
+144,Employee,Referral,Free,2025-12-02
+145,Employee,Referral,Free,2025-05-05
+146,Entrepreneur,Paid Ads,Pro,2025-09-07
+147,Employee,Organic Search,Free,2025-12-17
+148,Student,Organic Search,Free,2024-03-14
+149,Student,Social Media,Free,2025-11-05
+150,Employee,Paid Ads,Free,2025-08-31
+151,Employee,Social Media,Free,2024-07-21
+152,Employee,Paid Ads,Free,2024-01-30
+153,Student,Organic Search,Free,2024-07-14
+154,Freelancer,Referral,Pro,2025-06-21
+155,Entrepreneur,Organic Search,Free,2024-07-13
+156,Employee,Referral,Pro,2025-04-16
+157,Freelancer,Referral,Free,2024-08-19
+158,Student,Referral,Free,2024-09-10
+159,Freelancer,Organic Search,Free,2025-09-06
+160,Employee,Paid Ads,Pro,2025-12-05
+161,Student,Organic Search,Free,2025-12-20
+162,Employee,Organic Search,Free,2024-10-09
+163,Entrepreneur,Organic Search,Free,2024-08-13
+164,Freelancer,Paid Ads,Free,2024-02-06
+165,Employee,Social Media,Free,2025-09-12
+166,Employee,Social Media,Free,2024-07-10
+167,Employee,Paid Ads,Free,2024-07-27
+168,Employee,Organic Search,Pro,2025-08-04
+169,Entrepreneur,Organic Search,Free,2025-10-29
+170,Freelancer,Social Media,Free,2025-08-28
+171,Employee,Organic Search,Pro,2024-07-28
+172,Employee,Paid Ads,Free,2024-04-07
+173,Student,Social Media,Pro,2024-06-21
+174,Entrepreneur,Social Media,Free,2025-09-12
+175,Entrepreneur,Social Media,Free,2024-04-22
+176,Entrepreneur,Social Media,Free,2025-01-15
+177,Student,Paid Ads,Free,2024-05-27
+178,Entrepreneur,Social Media,Pro,2024-07-15
+179,Freelancer,Organic Search,Free,2024-11-15
+180,Employee,Referral,Free,2025-02-16
+181,Entrepreneur,Social Media,Pro,2024-10-23
+182,Student,Paid Ads,Free,2024-06-09
+183,Employee,Organic Search,Free,2025-08-08
+184,Employee,Referral,Free,2025-05-04
+185,Student,Organic Search,Pro,2024-12-21
+186,Employee,Referral,Pro,2025-03-20
+187,Employee,Organic Search,Free,2025-06-18
+188,Employee,Organic Search,Pro,2024-03-15
+189,Student,Referral,Free,2025-04-19
+190,Employee,Referral,Free,2025-04-23
+191,Freelancer,Organic Search,Free,2024-06-25
+192,Employee,Organic Search,Free,2024-03-18
+193,Employee,Social Media,Free,2025-03-17
+194,Freelancer,Social Media,Free,2025-01-09
+195,Freelancer,Organic Search,Pro,2024-02-29
+196,Freelancer,Referral,Pro,2025-04-03
+197,Employee,Referral,Free,2024-11-28
+198,Student,Referral,Free,2025-09-08
+199,Employee,Social Media,Free,2025-10-20
+200,Employee,Referral,Pro,2025-12-29
+201,Employee,Organic Search,Free,2025-03-07
+202,Employee,Organic Search,Free,2024-12-31
+203,Student,Social Media,Free,2024-10-27
+204,Freelancer,Paid Ads,Pro,2025-07-05
+205,Employee,Social Media,Free,2025-06-30
+206,Entrepreneur,Paid Ads,Free,2024-09-08
+207,Student,Organic Search,Pro,2024-10-26
+208,Employee,Paid Ads,Free,2024-05-03
+209,Employee,Paid Ads,Free,2024-01-01
+210,Entrepreneur,Organic Search,Pro,2024-03-24
+211,Employee,Paid Ads,Free,2024-08-13
+212,Student,Paid Ads,Pro,2025-11-01
+213,Entrepreneur,Paid Ads,Pro,2024-08-10
+214,Freelancer,Paid Ads,Pro,2024-12-27
+215,Freelancer,Social Media,Free,2024-04-21
+216,Student,Organic Search,Free,2024-12-09
+217,Freelancer,Organic Search,Free,2025-01-24
+218,Entrepreneur,Referral,Free,2024-01-07
+219,Employee,Referral,Free,2025-11-17
+220,Employee,Social Media,Pro,2025-10-02
+221,Employee,Referral,Pro,2024-10-30
+222,Freelancer,Social Media,Pro,2024-05-02
+223,Employee,Referral,Free,2024-07-13
+224,Employee,Organic Search,Free,2025-05-14
+225,Entrepreneur,Paid Ads,Pro,2024-06-19
+226,Employee,Social Media,Free,2025-03-04
+227,Employee,Social Media,Free,2024-08-12
+228,Student,Social Media,Free,2024-11-11
+229,Employee,Referral,Pro,2025-02-11
+230,Student,Social Media,Pro,2024-10-07
+231,Freelancer,Referral,Free,2025-11-26
+232,Entrepreneur,Organic Search,Free,2025-01-01
+233,Employee,Social Media,Free,2025-01-24
+234,Employee,Social Media,Free,2024-09-03
+235,Student,Paid Ads,Free,2024-12-24
+236,Employee,Referral,Free,2025-06-24
+237,Student,Referral,Free,2024-08-27
+238,Employee,Organic Search,Pro,2025-10-02
+239,Employee,Organic Search,Pro,2024-06-05
+240,Employee,Paid Ads,Free,2024-10-01
+241,Student,Referral,Free,2025-10-07
+242,Student,Social Media,Free,2025-06-22
+243,Employee,Social Media,Pro,2025-11-19
+244,Student,Social Media,Free,2025-05-03
+245,Student,Organic Search,Free,2025-07-03
+246,Employee,Referral,Pro,2024-09-04
+247,Freelancer,Organic Search,Free,2024-12-09
+248,Entrepreneur,Referral,Pro,2024-08-02
+249,Student,Paid Ads,Free,2025-01-04
+250,Freelancer,Social Media,Free,2024-02-18
+251,Employee,Referral,Pro,2025-10-06
+252,Student,Paid Ads,Free,2024-01-30
+253,Entrepreneur,Paid Ads,Pro,2025-05-06
+254,Entrepreneur,Referral,Free,2024-08-12
+255,Employee,Paid Ads,Free,2025-11-24
+256,Student,Paid Ads,Free,2025-10-14
+257,Student,Organic Search,Pro,2025-12-08
+258,Student,Social Media,Free,2025-05-24
+259,Entrepreneur,Referral,Free,2024-09-24
+260,Employee,Organic Search,Free,2025-06-04
+261,Student,Paid Ads,Pro,2024-07-10
+262,Employee,Referral,Free,2024-02-26
+263,Student,Organic Search,Free,2025-08-31
+264,Entrepreneur,Referral,Free,2025-06-05
+265,Employee,Organic Search,Free,2025-05-01
+266,Freelancer,Organic Search,Free,2025-09-19
+267,Student,Paid Ads,Free,2024-02-03
+268,Entrepreneur,Social Media,Free,2025-06-18
+269,Student,Paid Ads,Pro,2024-05-06
+270,Student,Paid Ads,Free,2025-12-11
+271,Freelancer,Paid Ads,Pro,2025-11-13
+272,Employee,Paid Ads,Pro,2025-07-10
+273,Entrepreneur,Organic Search,Free,2024-09-27
+274,Entrepreneur,Social Media,Pro,2024-10-31
+275,Employee,Referral,Free,2024-06-10
+276,Entrepreneur,Organic Search,Free,2025-12-17
+277,Employee,Paid Ads,Free,2025-05-10
+278,Entrepreneur,Referral,Free,2024-08-10
+279,Employee,Referral,Free,2025-03-01
+280,Employee,Paid Ads,Free,2024-04-25
+281,Employee,Organic Search,Free,2025-04-18
+282,Employee,Organic Search,Free,2025-12-19
+283,Freelancer,Organic Search,Free,2025-11-08
+284,Student,Paid Ads,Free,2024-04-09
+285,Entrepreneur,Paid Ads,Free,2024-03-29
+286,Employee,Paid Ads,Free,2025-08-16
+287,Freelancer,Social Media,Pro,2025-10-24
+288,Employee,Organic Search,Pro,2025-09-06
+289,Freelancer,Referral,Free,2025-08-14
+290,Freelancer,Referral,Free,2024-05-15
+291,Entrepreneur,Referral,Pro,2024-09-25
+292,Entrepreneur,Referral,Free,2025-07-23
+293,Student,Organic Search,Free,2025-02-05
+294,Employee,Social Media,Free,2025-10-20
+295,Entrepreneur,Organic Search,Free,2024-01-11
+296,Employee,Referral,Free,2025-05-18
+297,Employee,Social Media,Free,2024-06-07
+298,Employee,Organic Search,Free,2024-09-09
+299,Entrepreneur,Paid Ads,Free,2025-05-04
+300,Student,Referral,Free,2024-02-24
+301,Student,Social Media,Free,2025-06-12
+302,Entrepreneur,Social Media,Free,2025-11-17
+303,Entrepreneur,Organic Search,Free,2024-02-06
+304,Entrepreneur,Paid Ads,Pro,2024-08-20
+305,Student,Organic Search,Pro,2025-01-18
+306,Entrepreneur,Organic Search,Free,2025-01-10
+307,Employee,Social Media,Free,2025-02-20
+308,Entrepreneur,Social Media,Pro,2025-11-04
+309,Student,Referral,Free,2025-05-20
+310,Employee,Paid Ads,Pro,2024-01-27
+311,Student,Paid Ads,Free,2025-05-15
+312,Entrepreneur,Paid Ads,Free,2025-06-26
+313,Employee,Referral,Pro,2025-08-23
+314,Employee,Referral,Free,2024-01-09
+315,Freelancer,Social Media,Free,2025-09-23
+316,Employee,Social Media,Pro,2024-11-25
+317,Student,Organic Search,Free,2025-08-13
+318,Student,Organic Search,Free,2024-04-28
+319,Entrepreneur,Referral,Free,2025-12-05
+320,Freelancer,Organic Search,Pro,2024-01-18
+321,Entrepreneur,Social Media,Pro,2024-12-05
+322,Employee,Organic Search,Free,2025-06-03
+323,Entrepreneur,Referral,Pro,2025-06-22
+324,Freelancer,Organic Search,Free,2025-01-27
+325,Freelancer,Social Media,Free,2024-05-29
+326,Entrepreneur,Organic Search,Pro,2024-11-26
+327,Employee,Referral,Free,2024-03-09
+328,Employee,Organic Search,Free,2025-10-18
+329,Entrepreneur,Organic Search,Free,2025-09-30
+330,Student,Referral,Free,2025-03-21
+331,Freelancer,Social Media,Free,2025-10-17
+332,Employee,Paid Ads,Free,2024-11-02
+333,Student,Referral,Pro,2025-06-15
+334,Student,Organic Search,Free,2025-04-13
+335,Employee,Referral,Free,2025-12-15
+336,Entrepreneur,Paid Ads,Free,2024-05-20
+337,Student,Organic Search,Free,2024-06-08
+338,Freelancer,Organic Search,Free,2024-01-10
+339,Employee,Referral,Free,2025-10-18
+340,Student,Paid Ads,Free,2025-06-27
+341,Student,Paid Ads,Free,2025-03-20
+342,Entrepreneur,Social Media,Free,2025-10-31
+343,Student,Organic Search,Free,2024-06-15
+344,Entrepreneur,Paid Ads,Free,2025-12-19
+345,Entrepreneur,Paid Ads,Free,2025-01-06
+346,Employee,Organic Search,Free,2024-06-01
+347,Employee,Paid Ads,Free,2025-09-17
+348,Employee,Paid Ads,Pro,2024-09-07
+349,Employee,Social Media,Pro,2024-04-18
+350,Employee,Organic Search,Free,2024-09-04
+351,Student,Social Media,Pro,2025-04-11
+352,Employee,Organic Search,Free,2025-06-25
+353,Student,Paid Ads,Free,2025-03-11
+354,Employee,Organic Search,Pro,2024-03-26
+355,Student,Organic Search,Free,2025-11-24
+356,Entrepreneur,Paid Ads,Free,2025-12-03
+357,Entrepreneur,Referral,Pro,2025-04-08
+358,Freelancer,Referral,Free,2024-11-10
+359,Student,Paid Ads,Free,2025-01-10
+360,Student,Social Media,Free,2024-09-09
+361,Student,Paid Ads,Free,2025-07-26
+362,Entrepreneur,Organic Search,Free,2025-10-03
+363,Entrepreneur,Paid Ads,Free,2025-02-01
+364,Employee,Paid Ads,Free,2025-08-16
+365,Employee,Referral,Pro,2025-06-01
+366,Employee,Referral,Free,2024-05-16
+367,Employee,Referral,Free,2025-03-10
+368,Freelancer,Referral,Free,2024-04-26
+369,Entrepreneur,Referral,Pro,2025-10-09
+370,Employee,Referral,Free,2024-07-25
+371,Student,Social Media,Pro,2025-08-01
+372,Employee,Organic Search,Free,2025-04-04
+373,Student,Paid Ads,Free,2024-09-01
+374,Student,Organic Search,Free,2024-08-30
+375,Student,Paid Ads,Pro,2024-03-17
+376,Employee,Social Media,Free,2025-04-02
+377,Student,Organic Search,Free,2024-04-10
+378,Employee,Referral,Free,2025-06-28
+379,Student,Organic Search,Free,2024-06-12
+380,Student,Paid Ads,Free,2025-01-10
+381,Employee,Organic Search,Free,2024-06-13
+382,Employee,Organic Search,Free,2024-11-27
+383,Employee,Social Media,Free,2024-01-11
+384,Employee,Social Media,Pro,2024-07-11
+385,Student,Referral,Pro,2024-02-17
+386,Student,Paid Ads,Free,2024-03-27
+387,Employee,Organic Search,Pro,2025-09-02
+388,Employee,Social Media,Free,2024-06-23
+389,Employee,Social Media,Free,2024-05-14
+390,Employee,Social Media,Free,2025-06-02
+391,Student,Paid Ads,Pro,2024-03-03
+392,Entrepreneur,Paid Ads,Free,2025-04-24
+393,Employee,Social Media,Free,2025-07-13
+394,Employee,Referral,Pro,2025-04-03
+395,Employee,Paid Ads,Free,2025-03-05
+396,Employee,Paid Ads,Pro,2025-07-22
+397,Entrepreneur,Referral,Pro,2024-10-18
+398,Student,Referral,Free,2024-10-12
+399,Student,Paid Ads,Pro,2024-08-10
+400,Entrepreneur,Organic Search,Free,2024-06-21
+401,Student,Social Media,Pro,2024-06-27
+402,Entrepreneur,Paid Ads,Pro,2025-01-02
+403,Employee,Social Media,Free,2025-07-27
+404,Freelancer,Social Media,Free,2025-08-23
+405,Student,Social Media,Free,2025-10-08
+406,Employee,Referral,Pro,2025-10-31
+407,Freelancer,Paid Ads,Free,2025-05-21
+408,Employee,Paid Ads,Free,2025-09-20
+409,Employee,Organic Search,Free,2025-10-26
+410,Student,Paid Ads,Pro,2024-12-11
+411,Employee,Social Media,Free,2025-12-01
+412,Employee,Paid Ads,Pro,2024-02-17
+413,Student,Paid Ads,Free,2024-06-11
+414,Employee,Organic Search,Free,2025-02-06
+415,Employee,Referral,Free,2025-01-23
+416,Employee,Paid Ads,Free,2024-03-29
+417,Employee,Organic Search,Free,2025-02-15
+418,Entrepreneur,Organic Search,Pro,2024-07-15
+419,Employee,Social Media,Free,2025-09-03
+420,Employee,Social Media,Free,2024-08-29
+421,Entrepreneur,Organic Search,Free,2024-06-26
+422,Freelancer,Paid Ads,Pro,2024-11-27
+423,Employee,Social Media,Free,2025-05-01
+424,Student,Referral,Free,2025-06-02
+425,Entrepreneur,Paid Ads,Free,2024-05-20
+426,Student,Paid Ads,Free,2025-03-21
+427,Entrepreneur,Social Media,Free,2025-05-25
+428,Employee,Referral,Free,2025-01-19
+429,Student,Social Media,Free,2024-12-19
+430,Student,Organic Search,Pro,2024-12-03
+431,Employee,Organic Search,Free,2024-06-03
+432,Student,Paid Ads,Pro,2024-06-08
+433,Entrepreneur,Paid Ads,Free,2024-11-13
+434,Freelancer,Paid Ads,Pro,2024-11-01
+435,Employee,Organic Search,Pro,2025-12-01
+436,Entrepreneur,Referral,Free,2025-07-15
+437,Freelancer,Paid Ads,Free,2024-06-22
+438,Entrepreneur,Social Media,Free,2024-01-23
+439,Student,Social Media,Free,2025-11-16
+440,Freelancer,Referral,Free,2025-03-10
+441,Student,Paid Ads,Free,2024-03-02
+442,Employee,Referral,Pro,2025-11-26
+443,Student,Social Media,Free,2024-04-26
+444,Employee,Organic Search,Free,2025-11-05
+445,Entrepreneur,Social Media,Free,2025-12-16
+446,Entrepreneur,Organic Search,Free,2024-05-03
+447,Employee,Social Media,Free,2025-12-29
+448,Employee,Paid Ads,Free,2024-10-13
+449,Entrepreneur,Organic Search,Pro,2024-01-05
+450,Student,Paid Ads,Free,2024-11-12
+451,Employee,Paid Ads,Free,2025-06-07
+452,Student,Social Media,Free,2025-06-09
+453,Entrepreneur,Social Media,Free,2024-10-28
+454,Freelancer,Referral,Free,2024-08-10
+455,Student,Organic Search,Free,2024-11-25
+456,Entrepreneur,Social Media,Free,2025-09-06
+457,Entrepreneur,Referral,Free,2024-05-12
+458,Employee,Organic Search,Free,2024-07-27
+459,Entrepreneur,Paid Ads,Pro,2024-04-09
+460,Student,Paid Ads,Pro,2024-02-24
+461,Entrepreneur,Paid Ads,Free,2025-01-29
+462,Freelancer,Referral,Free,2024-05-13
+463,Entrepreneur,Paid Ads,Pro,2024-08-22
+464,Freelancer,Organic Search,Free,2025-03-27
+465,Entrepreneur,Social Media,Pro,2025-08-11
+466,Student,Paid Ads,Free,2024-01-17
+467,Entrepreneur,Social Media,Pro,2025-04-08
+468,Student,Social Media,Free,2024-01-29
+469,Employee,Organic Search,Free,2024-01-25
+470,Student,Social Media,Free,2024-02-04
+471,Employee,Paid Ads,Free,2025-07-26
+472,Student,Paid Ads,Free,2024-03-16
+473,Freelancer,Paid Ads,Free,2025-01-26
+474,Student,Organic Search,Free,2025-11-03
+475,Freelancer,Referral,Pro,2024-04-20
+476,Freelancer,Referral,Pro,2025-05-26
+477,Student,Social Media,Free,2024-09-05
+478,Student,Referral,Free,2025-11-05
+479,Entrepreneur,Referral,Free,2024-04-22
+480,Employee,Paid Ads,Free,2025-05-17
+481,Entrepreneur,Paid Ads,Free,2024-08-22
+482,Entrepreneur,Paid Ads,Free,2025-11-13
+483,Entrepreneur,Social Media,Free,2024-03-01
+484,Student,Social Media,Pro,2024-04-09
+485,Employee,Organic Search,Pro,2024-07-27
+486,Employee,Organic Search,Free,2024-05-21
+487,Student,Social Media,Pro,2024-07-01
+488,Student,Paid Ads,Free,2024-02-19
+489,Freelancer,Referral,Free,2025-02-25
+490,Entrepreneur,Paid Ads,Free,2025-08-03
+491,Employee,Social Media,Pro,2025-09-17
+492,Employee,Paid Ads,Free,2025-08-31
+493,Entrepreneur,Paid Ads,Pro,2024-12-25
+494,Student,Organic Search,Free,2024-04-03
+495,Employee,Paid Ads,Free,2024-02-08
+496,Employee,Referral,Free,2025-06-04
+497,Entrepreneur,Organic Search,Free,2025-06-30
+498,Employee,Social Media,Pro,2024-03-26
+499,Employee,Referral,Free,2024-05-21
+500,Freelancer,Social Media,Free,2024-10-23

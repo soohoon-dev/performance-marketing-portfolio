@@ -1,0 +1,54 @@
+.
+├── analysis
+│   ├── 01_eda_and_kpis.html
+│   ├── 01_eda_and_kpis.Rmd
+│   └── output
+│       ├── action_by_category_actionguide.png
+│       ├── action_by_optin.png
+│       └── completion_by_channel.png
+├── assets
+│   ├── ga4
+│   │   ├── ga4-device-breakdown.png
+│   │   ├── ga4-events-overview.png
+│   │   └── ga4-funnel-visualization.png
+│   ├── images
+│   │   ├── ga4-debugview-form_error.png
+│   │   ├── ga4-debugview-frame_save.png
+│   │   ├── ga4-debugview-frame_start.png
+│   │   ├── ga4-debugview-opt_in_click.png
+│   │   └── ga4-key-events-frame_save.png
+│   ├── implementation
+│   │   ├── after-landing-page.html
+│   │   ├── before-landing-page.html
+│   │   └── gtm-tag-configuration.png
+│   └── meta-ads
+│       ├── meta-ad-copy.txt
+│       ├── meta-ad-image.jpeg
+│       ├── meta-campaign-overview.png
+│       ├── meta-demographics.png
+│       └── meta-targeting-settings.png
+├── data
+│   ├── dim_book_metadata.csv
+│   ├── dim_user_profiles.csv
+│   ├── fact_reading_logs.csv
+│   ├── ga4-event-counts.csv
+│   ├── ga4-funnel-data.csv
+│   ├── meta-campaign-summary.csv
+│   └── meta-demographics.csv
+├── docs
+│   ├── case_study.md
+│   ├── interview_script.md
+│   ├── measurement_plan.md
+│   ├── meta-ads-test-analysis.md.md
+│   ├── share_templates.md
+│   └── tableau_dashboard.md
+├── index.html
+├── output.txt
+├── README.md
+└── sql
+    ├── 00_setup_notes.sql
+    ├── sql_01_data_quality_checks.sql
+    ├── sql_02_clean_views.sql
+    └── sql_03_kpi_queries.sql
+
+11 directories, 41 files
